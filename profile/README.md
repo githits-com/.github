@@ -1,30 +1,34 @@
 # GitHits
 
-GitHits helps AI coding agents and software engineers get unstuck by finding real, working solutions in open-source code.
+GitHits helps AI coding agents and software engineers find implementation patterns used in real open-source projects.
 
-When you hit a blocker, the fix usually already exists in a repo somewhere.  
-GitHits finds it and shows you the exact code that works.
+When an agent gets stuck on an integration, edge case, or unfamiliar library, the correct approach often already exists somewhere in the open-source ecosystem. GitHits finds those implementations and distills them into a single example your agent can use immediately.
 
-## What it does
+## What GitHits Does
 
-- Searches open-source repositories
-- Finds relevant implementations for your issue
-- Returns direct code references with context
-- Saves hours of debugging and trial and error
+- Searches real open-source repositories
+- Identifies implementation patterns relevant to your problem
+- Distills one canonical example grounded in real projects
+- Returns source references so you can verify the solution
 
-## How it works
+Instead of guessing from training data or scanning raw snippets, your agent receives a distilled example based on how developers actually solve the problem.
 
-1. Describe the problem or paste an error
-2. GitHits searches real repos
-3. You get one example and ranked code references that solve the blocker
+## How It Works
 
-## Who it’s for
+1. Describe the issue, design question, or error
+2. GitHits searches open-source repositories
+3. Relevant implementations are evaluated
+4. GitHits distills a single canonical example
+5. You receive the example and the source repositories behind it
 
-- Software engineers
-- AI coding agents
+## Who It’s For
 
-Anyone tired of being stuck on problems that already have answers.
+- Software engineers using AI coding tools
+- AI coding agents (Cursor, Claude Code, Copilot, etc.)
+- Teams building AI-assisted development workflows
 
-## Learn more
+Anyone tired of debugging loops when the answer already exists in open source.
 
-[GitHits](https://githits.com)
+## Learn More
+
+Website: https://githits.com
