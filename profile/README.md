@@ -1,33 +1,23 @@
 # GitHits
 
-GitHits helps AI coding agents and software engineers find implementation patterns used in real open-source projects.
+Your agent can grep, glob, and read your local codebase. It still cannot do the same thing across the open-source code your app depends on.
 
-When an agent gets stuck on an integration, edge case, or unfamiliar library, the correct approach often already exists somewhere in the open-source ecosystem. GitHits finds those implementations and distills them into a single example your agent can use immediately.
+That is where it breaks: niche integrations, undocumented APIs, version-specific behavior, and dependency internals. It starts guessing, retries small changes, then pushes the developer back into search, documentation, forums, and trial-and-error.
 
-## What GitHits Does
+**GitHits** builds a version-aware index of open-source code, package internals, documentation, dependency graphs, vulnerabilities, changelogs, and package upgrade changes so agents can retrieve and navigate the actual code running in the stack.
 
-- Searches real open-source repositories
-- Identifies implementation patterns relevant to your problem
-- Distills one canonical example grounded in real projects
-- Returns source references so you can verify the solution
+It gives them
 
-Instead of guessing from training data or scanning raw snippets, your agent receives a distilled example based on how developers actually solve the problem.
-
-## How It Works
-
-1. Describe the issue, design question, or error
-2. GitHits searches open-source repositories
-3. Relevant implementations are evaluated
-4. GitHits distills a single canonical example
-5. You receive the example and the source repositories behind it
+* **Examples based on prior art** from repositories, issues, discussions, and pull requests, linked back to the implementation code.
+* **Code navigation across packages and repositories**: search, grep, list files, and read exact line ranges without cloning.
+* **Documentation access** across hosted docs and repo-backed docs.
+* **Package inspection** for dependencies, vulnerabilities, changelogs, and version-to-version upgrade changes.
 
 ## Who It’s For
 
-- Software engineers using AI coding tools
+- AI-native software engineers using AI coding tools daily, developing greenfield products
 - AI coding agents (Cursor, Claude Code, Copilot, etc.)
 - Teams building AI-assisted development workflows
-
-Anyone tired of debugging loops when the answer already exists in open source.
 
 ## Learn More
 
