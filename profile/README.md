@@ -13,48 +13,38 @@ use, debug, and maintain dependencies through one interface.
 **Maintain an open-source project?**
 [Find your repository and get its README badge](https://index.githits.dev/?host=github.com#target-form).
 
-## Work beyond your local codebase
+## Beyond your local codebase
 
 Your agent can grep, glob, and read your local codebase. Working across
-the dependencies behind your application takes more: finding the right
-repository, locating the relevant source, and checking the version in use.
+your dependencies also means finding the right upstream source,
+documentation, and release.
 
-That matters when integrating an unfamiliar library, debugging an
-undocumented API, or upgrading a dependency. Without checking upstream
-code and documentation, an agent can propose changes based on APIs or
-behavior that don't match your stack.
+GitHits brings those sources together so agents can investigate
+unfamiliar integrations, undocumented APIs, version-specific behavior,
+and dependency internals.
 
-GitHits brings those sources together so your agent can inspect them
-as part of the work.
+- **Code:** Search, grep, browse files, and read exact line ranges or
+  symbols at a package version or repository revision, without cloning.
+- **Documentation:** Search and read hosted docs and documentation
+  in repositories.
+- **Examples:** Generate implementation examples informed by other
+  open-source projects, with source links and license information.
+- **Package intelligence:** Inspect dependencies, known vulnerabilities,
+  changelogs, and changes between versions.
 
-## What your agent can do
-
-- **Inspect dependency code.** Search, grep, browse files, and read exact
-  line ranges or symbols at a package version or repository revision,
-  without cloning.
-- **Read documentation.** Find and read relevant sections across hosted
-  documentation and documentation in repositories.
-- **Learn from prior art.** Generate implementation examples informed by
-  other open-source projects, with links to sources and license information.
-- **Evaluate dependencies and upgrades.** Inspect dependency graphs,
-  known vulnerabilities, changelogs, and changes between versions.
+Connect through the CLI or MCP, or explore the
+[REST API](https://docs.githits.com/api/overview) for custom integrations.
 
 ## Who it's for
 
-- People building and operating software factories.
-- Developers using coding agents to build new products, maintain existing
-  applications, and modernize their stack.
-- Teams integrating open-source retrieval into development workflows.
-- Open-source maintainers helping users and their agents inspect their
-  projects.
+People building software factories, developers using coding agents,
+and teams building AI-assisted development workflows. GitHits supports
+new development, maintenance, and modernization.
 
-Connect through the CLI or MCP. For custom integrations, explore the
-[REST API](https://docs.githits.com/api/overview).
+## Maintain an open-source project?
 
-## For open-source maintainers
-
-Help users and their coding agents work with your project's actual code
-and documentation, including releases absent from a model's training.
+Help users and their agents work with your project's actual code and
+documentation, including releases absent from a model's training.
 
 Find your repository in the GitHits Index and copy its badge Markdown
 into your README. The badge shows index status and links to your
